@@ -4,6 +4,7 @@
     {
         private string password = "secret";
         internal int copiesInStock = 5;
+        public string title = "C#";    
     }
     internal class Program
     {
@@ -31,6 +32,12 @@
             // Because I can use it since I have the permission
             // to use it anywhere in my project only.
             // */
+            #endregion
+            #region Question03
+            ////3.Add a public string Title; field to Book.
+            ////Set it and print it from Main.
+            //Book book = new Book();
+            //Console.WriteLine(book.title);
             #endregion
         }
     }
