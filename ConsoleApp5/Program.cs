@@ -70,6 +70,13 @@ namespace ConsoleApp5
             //int genreNumber = 1;
             //Console.WriteLine((Genre)genreNumber);
             #endregion
+            #region Question07
+            ////7.Given Genre genre = Genre.Fiction;
+            ////convert it into a string using ToString() and print it.
+            //Genre genre = Genre.Fiction;
+            //string genreString = genre.ToString();
+            //Console.WriteLine(genreString);
+            #endregion
         }
     }
 }
