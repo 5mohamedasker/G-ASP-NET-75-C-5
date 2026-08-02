@@ -64,6 +64,12 @@ namespace ConsoleApp5
             //Console.WriteLine((int)Genre.NonFiction);
             //Console.WriteLine((int)Genre.Science);
             #endregion
+            #region Question06
+            ////6.Given int genreNumber = 1;
+            ////cast it into a Genre value and print the result.
+            //int genreNumber = 1;
+            //Console.WriteLine((Genre)genreNumber);
+            #endregion
         }
     }
 }
