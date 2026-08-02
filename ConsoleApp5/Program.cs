@@ -1,10 +1,19 @@
-﻿namespace ConsoleApp5
+﻿using System.Drawing;
+
+namespace ConsoleApp5
 {
     internal class Book
     {
         private string password = "secret";
         internal int copiesInStock = 5;
-        public string title = "C#";    
+        public string title = "C#";
+        internal Genre genre { get; set; } 
+    }
+    internal enum Genre
+    { 
+        Fiction=1,
+        NonFiction,
+        Science
     }
     internal class Program
     {
@@ -38,6 +47,14 @@
             ////Set it and print it from Main.
             //Book book = new Book();
             //Console.WriteLine(book.title);
+            #endregion
+            #region Question04
+            ////4.Declare an enum Genre { Fiction, NonFiction, Science }.
+            ////Add a Genre property to Book,
+            ////assign it Genre.Science, and print it.
+            //Book book = new Book();
+            //book.genre = Genre.Science;
+            //Console.WriteLine(book.genre);
             #endregion
         }
     }
