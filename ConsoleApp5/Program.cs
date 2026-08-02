@@ -3,6 +3,7 @@
     internal class Book
     {
         private string password = "secret";
+        internal int copiesInStock = 5;
     }
     internal class Program
     {
@@ -19,6 +20,17 @@
             // because I don't have permission to use the password
             // outside of the class.
             //*/
+            #endregion
+            #region Question02
+            ////2.Add an internal int copiesInStock = 5; field to Book.
+            ////Print it from Main. Does it compile? Why ?
+            //Book book = new Book();
+            //Console.WriteLine(book.copiesInStock);
+            ///* Does it compile? Why ?
+            // yes it compiled.
+            // Because I can use it since I have the permission
+            // to use it anywhere in my project only.
+            // */
             #endregion
         }
     }
